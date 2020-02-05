@@ -8,8 +8,8 @@ var all = document.querySelector(".btn-all");
 //ul to add lists
 var ul = document.querySelector("ul")
 var id = 0;
-var clsD="b"+10;
-idBtn ="a"+10;
+var clsD=id+10;
+var idBtn =10000+id;
 // Highlights the list with it's personal ID 
 
 function highlight(di) {
